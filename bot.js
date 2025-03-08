@@ -12,7 +12,7 @@ const bot = mineflayer.createBot({
     username: process.env.MINECRAFT_USERNAME,
     auth: process.env.AUTH_TYPE === "microsoft" ? "microsoft" : "offline",
     password: process.env.AUTH_TYPE === "microsoft" ? process.env.MINECRAFT_PASSWORD : undefined,
-    version: "1.21.4"  // 🔴 Replace with your actual Minecraft server version!
+    version: "1.20.1"  // 🔴 Replace with your actual Minecraft server version!
 });
 
 bot.on('login', () => {

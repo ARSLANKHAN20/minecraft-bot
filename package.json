@@ -3,11 +3,27 @@
     "canvas": "^3.1.0",
     "dotenv": "^16.4.7",
     "minecraft-data": "^3.84.1",
-    "mineflayer": "^4.0.0",
+    "mineflayer": "^4.26.0",
     "mineflayer-pathfinder": "^2.4.5",
     "prismarine-viewer": "^1.33.0"
   },
   "scripts": {
     "start": "node bot.js"
-  }
+  },
+  "name": "minecraft-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARSLANKHAN20/minecraft-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARSLANKHAN20/minecraft-bot/issues"
+  },
+  "homepage": "https://github.com/ARSLANKHAN20/minecraft-bot#readme",
+  "description": ""
 }
