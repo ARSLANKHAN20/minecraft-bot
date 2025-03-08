@@ -28,7 +28,7 @@ bot.on('kicked', (reason) => console.log(`⚠️ Kicked: ${reason}`));
 bot.on('error', (err) => console.log(`❗ Error:`, err));
 
 bot.on('spawn', () => {
-    bot.chat("Hello! I am now online. 🎮");
+    //bot.chat("Hello! I am now online. 🎮");
 });
 
 bot.on('chat', (username, message) => {
@@ -63,7 +63,7 @@ function antiAFK() {
             () => bot.setControlState('jump', true),   // Jump
             () => bot.setControlState('jump', false),
             () => bot.look(Math.random() * Math.PI, 0), // Random head movement
-            () => bot.chat("I'm not AFK! 🏃‍♂️"), // Send a chat message
+            //() => bot.chat("I'm not AFK! 🏃‍♂️"), // Send a chat message
             () => bot.setControlState('forward', true), // Walk forward
             () => setTimeout(() => bot.setControlState('forward', false), 1000) // Stop after 1 sec
         ];
