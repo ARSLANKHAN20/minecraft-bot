@@ -3,5 +3,9 @@
     "dotenv": "^16.4.7",
     "minecraft-data": "^3.84.1",
     "mineflayer": "^4.26.0"
+  },
+  "scripts": {
+    "start": "node bot.js"
   }
 }
+
